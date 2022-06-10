@@ -6883,9 +6883,11 @@
                     modules: [ Navigation, Pagination ],
                     observer: true,
                     observeParents: true,
+                    observeSlideChildren: true,
                     spaceBetween: 16,
                     autoHeight: false,
                     speed: 800,
+                    watchOverflow: true,
                     pagination: {
                         el: elementPagginatiopn,
                         clickable: true
