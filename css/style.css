@@ -725,14 +725,15 @@ textarea.input {
   display: flex;
   align-items: flex-end;
 }
-@media (max-width: 1600px) {
+@media (max-width: 100em) {
   .hero__inner {
     justify-content: space-between;
     align-items: flex-start;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 35em) {
   .hero__inner {
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -742,7 +743,7 @@ textarea.input {
   margin-right: 90px;
   padding-top: 65px;
 }
-@media (max-width: 1600px) {
+@media (max-width: 100em) {
   .hero__info {
     padding-top: 160px;
     margin-right: 0;
@@ -755,7 +756,7 @@ textarea.input {
     padding-top: 43px;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 35em) {
   .hero__info {
     display: none;
   }
@@ -815,7 +816,7 @@ textarea.input {
 .hero__order {
   margin-bottom: 190px;
 }
-@media (max-width: 1600px) {
+@media (max-width: 100em) {
   .hero__order {
     margin-bottom: 148px;
   }
@@ -859,11 +860,12 @@ textarea.input {
     margin-right: -40px;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 35em) {
   .hero__decor {
     margin-right: 0;
-    flex: 0 1 63.75%;
+    flex: 0 1 100%;
     max-width: 63.75%;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -879,6 +881,11 @@ textarea.input {
 @media (max-width: 47.99875em) {
   .hero__image {
     transform: translate(0, -8px);
+  }
+}
+@media (max-width: 35em) {
+  .hero__image {
+    transform: translate(0px, 0px);
   }
 }
 
@@ -913,7 +920,7 @@ textarea.input {
   max-width: 51.75%;
   max-height: 857px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .about__content {
     flex: 0 1 50.9375%;
     max-width: 50.9375%;
@@ -959,7 +966,7 @@ textarea.input {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1800px) {
+@media (max-width: 112.5em) {
   .about__controls {
     display: none;
   }
@@ -1036,7 +1043,7 @@ textarea.input {
 .advantages {
   padding: 81px 0 15px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .advantages {
     padding: 0 0 15px;
   }
@@ -1049,7 +1056,7 @@ textarea.input {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .advantages__row {
     margin: 0 -16px;
   }
@@ -1058,7 +1065,7 @@ textarea.input {
   flex: 0 1 33.33%;
   margin-bottom: 60px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .advantages__item {
     margin-bottom: 10px;
     padding: 0 16px;
@@ -1072,7 +1079,7 @@ textarea.input {
     flex: 1 1 100%;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 36.25em) {
   .advantages__item {
     flex: 1 1 100%;
     margin-bottom: 20px;
@@ -1100,7 +1107,7 @@ textarea.input {
   font-size: 18px;
   line-height: 1.7777777778;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .item-advantage__description {
     font-size: 16px;
     line-height: 1.75;
@@ -1154,7 +1161,7 @@ textarea.input {
   align-items: start;
   justify-content: space-between;
 }
-@media (max-width: 580px) {
+@media (max-width: 36.25em) {
   .reviews__body {
     flex-wrap: wrap;
   }
@@ -1173,7 +1180,7 @@ textarea.input {
     display: none;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 36.25em) {
   .reviews__item {
     flex: 1 1 100%;
   }
@@ -1190,7 +1197,7 @@ textarea.input {
   padding: 47px 47px 61px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .item-reviews {
     padding: 30px 7px;
   }
@@ -1279,7 +1286,7 @@ textarea.input {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1800px) {
+@media (max-width: 112.5em) {
   .catalog__controls {
     display: none;
   }
@@ -1502,7 +1509,7 @@ textarea.input {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1800px) {
+@media (max-width: 112.5em) {
   .case__controls {
     display: none;
   }
@@ -1517,7 +1524,7 @@ textarea.input {
   width: 100%;
   height: 745px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .case-slide.swiper-slide {
     height: 435px;
   }
@@ -1527,7 +1534,7 @@ textarea.input {
     height: 350px;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 36.25em) {
   .case-slide.swiper-slide {
     height: 535px;
   }
@@ -1541,7 +1548,7 @@ textarea.input {
   min-height: 100%;
   max-height: 745px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .swiper-slide__inner-ibg {
     max-height: 435px;
   }
@@ -1551,7 +1558,7 @@ textarea.input {
     max-height: 350px;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 36.25em) {
   .swiper-slide__inner-ibg {
     max-height: 535px;
   }
