@@ -857,16 +857,13 @@ textarea.input {
 @media (max-width: 102.5em) {
   .hero__decor {
     flex: 0 1 54.125%;
-    margin-right: -40px;
   }
 }
 @media (max-width: 35em) {
   .hero__decor {
-    margin-right: 0;
     flex: 0 1 100%;
     max-width: 63.75%;
     width: 100%;
-    margin: 0 auto;
   }
 }
 .hero__image {
