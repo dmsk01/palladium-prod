@@ -6887,6 +6887,7 @@
                     spaceBetween: 16,
                     autoHeight: false,
                     speed: 800,
+                    loop: true,
                     watchOverflow: true,
                     pagination: {
                         el: elementPagginatiopn,
